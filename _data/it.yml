@@ -7,23 +7,24 @@ locale: it
 
 nav:
   offer: Offerta
+  method: Come lavoro
   work: Lavori
   about: Chi sono
   contact: Contatti
 
 meta:
-  title: "Guglielmo Celata — Solution & Data Architect"
-  description: "Principal indipendente. Progetto e dirigo piattaforme dati — e le applicazioni di intelligenza artificiale che rendono quei dati accessibili e utilizzabili. 25 anni di sistemi di dati pubblici."
+  title: "Guglielmo Celata — Direzione tecnica e architetturale di piattaforme dati"
+  description: "Principal indipendente. Trasformo problemi dati complessi in piattaforme governate — e nel team che le manda in produzione, il tuo o il mio. 25 anni su sistemi di dati pubblici."
 
 hero:
-  kicker: "Principal indipendente / Solution &amp; Data Architect"
-  title: "Piattaforme dati — e l'<mark>IA</mark> che le rende accessibili."
-  lede: "Da 25 anni progetto i sistemi di dati pubblici su cui le istituzioni fanno affidamento. Dal 2024: monitoraggio basato su LLM in produzione e accesso ai dati in linguaggio naturale a livello prototipale."
+  kicker: "Principal indipendente · Direzione tecnica e architetturale di piattaforme dati"
+  title: "Trasformo problemi dati complessi in <mark>piattaforme governate</mark> — e nel team che le manda in produzione."
+  lede: "Un ingaggio a perimetro definito, direzione principal: da un requisito ambiguo a un'architettura governata — realizzata dal tuo team, che abilito, o dal mio. 25 anni su sistemi di dati pubblici; dal 2024, il livello di IA che ci sta sopra."
   cta_work: "Lavori selezionati →"
   cta_contact: "Contatti"
 
 offer:
-  no: "01"
+  num: "01"
   heading: "Cosa dirigo"
   pillars:
     - code: P1
@@ -39,8 +40,20 @@ offer:
       title: "Padronanza dello stack"
       body: "La profondità tecnica, fino al metallo, è la fonte dell'autorevolezza per dirigere. Indico la strada e giustifico ogni scelta per filo e per segno."
 
+method:
+  num: "02"
+  heading: "Come lavoro"
+  lede: "Le due domande che tutti si fanno davvero — gestisci persone? consegni, o dai solo pareri? — con risposta netta."
+  items:
+    - title: "Direzione, non line-management"
+      body: "Possiedo architettura, roadmap, gli standard di qualità e sicurezza, e il collaudo dei rilasci. Non ho le tue risorse a libro paga e non faccio il project manager."
+    - title: "Il team è il tuo, o è il mio"
+      body: "Indirizzo e abilito il team che già hai — oppure porto io il team di delivery: DEPP, la società che ho co-fondato. La risposta a \"chi lo realizza?\" è esplicita."
+    - title: "Un ingaggio a perimetro definito"
+      body: "Perimetro definito, su P.IVA personale: da requisiti ambigui ad architettura, infrastruttura e un team su una rotta chiara per rilasciare."
+
 work:
-  no: "02"
+  num: "03"
   heading: "Lavori selezionati"
   items:
     - id: maps
@@ -86,7 +99,7 @@ about:
 contact:
   kicker: Contatti
   heading: "Un problema data-intensive che ha bisogno di direzione?"
-  body: "Direzione architetturale · progettazione di applicazioni di IA · direzione tecnica frazionale. Remote-first, in italiano o inglese."
+  body: "Portami il problema dati mal definito: lo trasformo in una piattaforma governata e nel team che la realizza — il tuo o il mio. Direzione architetturale · progettazione di applicazioni di IA · direzione tecnica. Remote-first, in italiano o inglese."
   email: "guglielmo.celata@protonmail.com"
 
 case_back: "← Tutti i lavori"

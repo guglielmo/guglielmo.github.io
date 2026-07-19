@@ -16,7 +16,7 @@ layout: base
 
 <section id="offer">
   <div class="wrap">
-    <div class="sec-head"><span class="no">{{ t.offer.no }}</span><h2>{{ t.offer.heading }}</h2></div>
+    <div class="sec-head"><span class="no">{{ t.offer.num }}</span><h2>{{ t.offer.heading }}</h2></div>
     <div class="grid4">
       {% for p in t.offer.pillars %}
       <div class="cell">
@@ -29,9 +29,24 @@ layout: base
   </div>
 </section>
 
+<section id="method">
+  <div class="wrap">
+    <div class="sec-head"><span class="no">{{ t.method.num }}</span><h2>{{ t.method.heading }}</h2></div>
+    <p class="lede">{{ t.method.lede }}</p>
+    <div class="grid3">
+      {% for m in t.method.items %}
+      <div class="cell">
+        <h3>{{ m.title }}</h3>
+        <p>{{ m.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section id="work">
   <div class="wrap">
-    <div class="sec-head"><span class="no">{{ t.work.no }}</span><h2>{{ t.work.heading }}</h2></div>
+    <div class="sec-head"><span class="no">{{ t.work.num }}</span><h2>{{ t.work.heading }}</h2></div>
     <div class="rows">
       {% for item in t.work.items %}
       <a class="row" href="{{ t.dir_base | append: '/work/' | append: item.id | append: '/' | relative_url }}">
