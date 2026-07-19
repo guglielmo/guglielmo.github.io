@@ -46,7 +46,9 @@ layout: base
 </section>
 
 <section id="about">
-  <div class="wrap about">
+  <div class="wrap">
+    {% assign has_portrait = false %}{% for sf in site.static_files %}{% if sf.path == t.about.portrait %}{% assign has_portrait = true %}{% endif %}{% endfor %}{% if has_portrait %}<img class="portrait" src="{{ t.about.portrait | relative_url }}" alt="{{ t.about.portrait_alt }}" loading="lazy">{% endif %}
+    <div class="about">
     <div>
       <span class="lbl">{{ t.about.label }}</span>
       <h2>{{ t.about.heading }}</h2>
@@ -58,6 +60,7 @@ layout: base
     </div>
     <div class="about-body">
       {% for para in t.about.body %}<p{% if forloop.first %} class="lead"{% endif %}>{{ para }}</p>{% endfor %}
+    </div>
     </div>
   </div>
 </section>

@@ -67,6 +67,8 @@ work:
 about:
   label: About
   heading: "From the mathematics, not the hype cycle"
+  portrait: "/assets/img/guglielmo-celata.jpg"
+  portrait_alt: "Guglielmo Celata"
   specs:
     - k: Base
       v: "Personal P.IVA · remote"
@@ -88,6 +90,7 @@ contact:
   email: "guglielmo.celata@protonmail.com"
 
 case_back: "← All work"
+case_diagram_label: "Architecture"
 
 cases:
   maps:
