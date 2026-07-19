@@ -67,6 +67,8 @@ work:
 about:
   label: Chi sono
   heading: "Dalla matematica, non dal ciclo dell'hype"
+  portrait: "/assets/img/guglielmo-celata.jpg"
+  portrait_alt: "Guglielmo Celata"
   specs:
     - k: Sede
       v: "P.IVA personale · remoto"
@@ -88,6 +90,7 @@ contact:
   email: "guglielmo.celata@protonmail.com"
 
 case_back: "← Tutti i lavori"
+case_diagram_label: "Architettura"
 
 cases:
   maps:

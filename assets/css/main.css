@@ -109,6 +109,7 @@ main > section { padding: clamp(2.8rem, 6vw, 4.5rem) 0; border-bottom: 2px solid
 
 /* ---- about ---- */
 .about { display: grid; grid-template-columns: 1fr 1.4fr; gap: clamp(1.5rem, 4vw, 3.5rem); }
+.portrait { display: block; width: 100%; max-width: 640px; height: auto; border: 2px solid var(--rule); background: #0d0e0c; margin: 0 0 2.8rem; }
 .about .lbl { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faint); }
 .about h2 { font-family: var(--grot); font-weight: 800; font-size: clamp(1.5rem, 3vw, 2.2rem); letter-spacing: -0.02em; margin: 0.6rem 0 0; text-transform: uppercase; text-wrap: balance; }
 .about-body p { color: var(--ink-soft); max-width: 62ch; }
@@ -148,6 +149,22 @@ footer { }
 .foot-in { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding: 1.6rem 0; font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
 .foot-in a { color: var(--ink-faint); text-decoration: none; }
 .foot-in a:hover { color: var(--accent); }
+
+/* ---- case-study diagram ---- */
+.diagram-fig { margin: 2.5rem 0 0.5rem; border: 2px solid var(--rule); background: var(--panel); }
+.diagram-cap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); padding: 0.8rem 1rem; border-bottom: 1px solid var(--rule-soft); }
+.diagram-cap b { color: var(--accent); font-weight: 700; }
+.diagram-body { padding: 1.4rem; overflow-x: auto; }
+.diagram-body svg { display: block; width: 100%; height: auto; min-width: 620px; }
+.diagram-fig .box { fill: var(--panel); stroke: var(--ink); stroke-width: 1.5; }
+.diagram-fig .box-accent { fill: none; stroke: var(--accent); stroke-width: 2; }
+.diagram-fig .band { fill: none; stroke: var(--ink-faint); stroke-width: 1; stroke-dasharray: 3 3; }
+.diagram-fig .t-title { fill: var(--ink); font-family: var(--grot); font-weight: 700; font-size: 15px; }
+.diagram-fig .t-sub { fill: var(--ink-soft); font-family: var(--mono); font-size: 11px; }
+.diagram-fig .t-tag { fill: var(--ink-faint); font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.04em; }
+.diagram-fig .t-accent { fill: var(--accent); font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; }
+.diagram-fig .flow { stroke: var(--ink); stroke-width: 1.5; fill: none; }
+.diagram-fig .flow-a { stroke: var(--accent); stroke-width: 2; fill: none; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

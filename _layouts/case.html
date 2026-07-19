@@ -9,6 +9,7 @@ layout: base
     <p class="kicker">{{ c.meta }}</p>
     <h1>{{ c.title }}</h1>
     <p class="case-lead">{{ c.lead }}</p>
+    {% include diagram.html %}
     <div class="case-blocks">
       {% for b in c.blocks %}
       <section class="case-block">
