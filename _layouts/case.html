@@ -1,0 +1,22 @@
+---
+layout: base
+---
+{% assign t = site.data[page.lang] %}
+{% assign c = t.cases[page.case] %}
+<article class="case">
+  <div class="wrap">
+    <a class="case-back" href="{{ t.dir_base | append: '/#work' | relative_url }}">{{ t.case_back }}</a>
+    <p class="kicker">{{ c.meta }}</p>
+    <h1>{{ c.title }}</h1>
+    <p class="case-lead">{{ c.lead }}</p>
+    <div class="case-blocks">
+      {% for b in c.blocks %}
+      <section class="case-block">
+        <h2>{{ b.h }}</h2>
+        <p>{{ b.p }}</p>
+      </section>
+      {% endfor %}
+    </div>
+    <a class="case-back foot" href="{{ t.dir_base | append: '/#work' | relative_url }}">{{ t.case_back }}</a>
+  </div>
+</article>

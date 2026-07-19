@@ -1,0 +1,144 @@
+lang: en
+lang_label: EN
+alt_label: IT
+alt_home: /it/
+dir_base: ""
+locale: en
+
+nav:
+  offer: Offer
+  work: Work
+  about: About
+  contact: Contact
+
+meta:
+  title: "Guglielmo Celata — Solution & Data Architect"
+  description: "Independent principal architect. I design and direct data platforms — and the AI applications that put them to work. 25 years of public-data systems."
+
+hero:
+  kicker: "Independent Principal / Solution &amp; Data Architect"
+  title: "Data platforms — and the <mark>AI</mark> that puts them to work."
+  lede: "25 years architecting public-data systems institutions rely on. Since 2024: LLM-based monitoring and natural-language access to data, delivered with agentic method throughout."
+  cta_work: "Selected work →"
+  cta_contact: "Contact"
+
+offer:
+  no: "01"
+  heading: "What I direct"
+  pillars:
+    - code: P1
+      title: "Data-platform architecture"
+      body: "Architecture, roadmap, QA and acceptance of institutional data platforms — data model, governance, security-by-design."
+    - code: P2
+      title: "AI over data"
+      body: "Idea to production: LLM monitoring in production, natural-language access to data (SQL, SPARQL), RAG over documents, MCP integrations."
+    - code: P3
+      title: "Agentic method"
+      body: "How I work and how the team I enabled works — architecture, analysis, ops, delivery. Not advice from outside."
+    - code: P4
+      title: "Command of the stack"
+      body: "Depth to the metal as the source of authority to direct. I set the road and justify every call in full."
+
+work:
+  no: "02"
+  heading: "Selected work"
+  items:
+    - id: maps
+      idx: "01"
+      title: "MAPS data-lake"
+      desc: "Directing an institutional data-lake — technical design, QA Playbook, security-by-design, release acceptance."
+      tag: "Gran Sasso Tech · 2025 →"
+    - id: llm-monitoring
+      idx: "02"
+      title: "LLM monitoring"
+      desc: "Categorizes, summarizes and prioritizes the news stream against each client's interests. In production."
+      tag: "Public-affairs · 2024 →"
+    - id: opencoesione
+      idx: "03"
+      title: "OpenCoesione.gov.it"
+      desc: "The data architecture behind Italy's national portal for EU cohesion funds. Built to be queried and trusted."
+      tag: "National portal"
+    - id: health-system
+      idx: "04"
+      title: "Health-authority system"
+      desc: "From ambiguous requirements to architecture, infrastructure and a development team on a clear path to ship."
+      tag: "Custom system"
+
+about:
+  label: About
+  heading: "From the mathematics, not the hype cycle"
+  specs:
+    - k: Base
+      v: "Personal P.IVA · remote"
+    - k: Languages
+      v: "EN · IT"
+    - k: Background
+      v: "Openpolis · DEPP · GST"
+    - k: Origin
+      v: "Physics / neural networks, 1996"
+  body:
+    - "I'm an independent principal architect. For 25 years I've turned complex public data into platforms institutions rely on — from OpenCoesione's national data architecture to the MAPS territorial data-lake I direct today."
+    - "I built data infrastructure for public accountability: OPDM, the platform behind Openpolis' monitoring of politics and institutions; the national archive of CIPE deliberations; the <strong>Popolo</strong> international standard for data on people and organizations. I'm one of the people who built Openpolis into a national foundation, and I co-founded DEPP, where I'm CTO."
+    - "Since 2024 I design the AI applications that put data to work. The lesson, simpler than the hype: <strong>an AI application over data is only as good as the platform beneath it — I design both layers.</strong>"
+
+contact:
+  kicker: Contact
+  heading: "A data-heavy problem that needs direction?"
+  body: "Architecture direction · AI-application design · fractional technical direction. Remote-first, in English or Italian."
+  email: "guglielmo.celata@protonmail.com"
+
+case_back: "← All work"
+
+cases:
+  maps:
+    idx: "01"
+    title: "MAPS — directing an institutional data-lake"
+    meta: "Fondazione Gran Sasso Tech · 2025 →"
+    lead: "A governed territorial data-lake for place-based research — identifying functional areas from citizens' real daily-mobility patterns, which requires integrating heterogeneous public sources under one governance model."
+    blocks:
+      - h: "My role"
+        p: "Independent principal, personal P.IVA, fixed-scope: ICT specialist consulting, quality assurance and acceptance. In practice I directed the realization end-to-end."
+      - h: "What I directed"
+        p: "Architectural review and technical roadmap of the data-lake and interoperability components. I authored the WP2 deliverables — technical design, cloud solution design, hosting, ETL pipelines, validation, delivery report. I wrote the QA Playbook (branching, code review, coverage, logging and observability) and the Security &amp; Privacy-by-Design checklist (secrets management, hardening, audit log). I defined the coordination procedures for the development team, trained internal and external resources, and own release acceptance."
+      - h: "Stack directed"
+        p: "PostgreSQL + PostGIS, DuckDB, Prefect, OpenMetadata, Great Expectations, Docling; medallion (bronze / silver / gold) layering."
+      - h: "Outcome"
+        p: "An institutional data-lake stood up with governance, QA and security built in from the start — and a team enabled to run it, including a new resource productive within a week. Ongoing through 2026."
+    sells: "Architecture direction + team enablement."
+  llm-monitoring:
+    idx: "02"
+    title: "An LLM-based monitoring platform, in production"
+    meta: "A public-affairs consultancy · via DEPP · 2024 →"
+    lead: "Analysts monitor the news stream for each client's interests; the volume makes manual triage the bottleneck. I designed an application that reads the stream and categorizes, summarizes and prioritizes it against each client's declared interests."
+    blocks:
+      - h: "My role"
+        p: "Ideation and application design, delivered within DEPP's offer. The first LLM-based application in the portfolio."
+      - h: "What it does"
+        p: "LLMs via API over an ingestion pipeline: it categorizes incoming items, summarizes them, and extracts and prioritizes what matters against each client's interests."
+      - h: "Why it matters"
+        p: "The production proof of the AI-application strand — and a concrete illustration of the nexus: the application works because the data layer beneath it (ingestion, structure, governance) was designed for it."
+    sells: "AI applications over data + both layers."
+  opencoesione:
+    idx: "03"
+    title: "OpenCoesione.gov.it — national data architecture"
+    meta: "Public portal · EU cohesion funds"
+    lead: "The data model behind Italy's national portal for EU cohesion funds — a public-data system that has to be correct, transparent and durable, built to be queried, audited and trusted."
+    blocks:
+      - h: "The work"
+        p: "I designed the data architecture: the model that makes cohesion-fund spending queryable and accountable across projects, territories and themes. Part of a 25-year lineage of public-data platforms — OPDM, OpenBilanci, the CIPE deliberations archive, OpenDataLazio — and the Popolo international standard for data on people, organizations and posts."
+      - h: "Why it matters"
+        p: "The archetype of what I direct: data as a public good, modelled for correctness and transparency, durable enough that institutions still rely on it years later."
+    sells: "Data-platform architecture for institutions."
+  health-system:
+    idx: "04"
+    title: "A management system for a federation of health authorities"
+    meta: "An Italian federation of health and hospital authorities · via DEPP"
+    lead: "A new custom management system was needed — from ambiguous client requirements to a working application, architecture and a team that ships."
+    blocks:
+      - h: "My role"
+        p: "Solution architect and technical direction."
+      - h: "What I did"
+        p: "Gathered and structured the client's specifications; defined the application architecture and the supporting infrastructure; set the technology choices; routed and instructed the development team to build it; and continue to hold the infrastructure — including the Kubernetes layer — as the operating foundation."
+      - h: "The pattern"
+        p: "The repeatable thing I sell: take a data-heavy, under-specified need, turn it into an architecture and an infrastructure, and hand a development team a clear path to ship. Direction, not hands-on tickets."
+    sells: "Architecture direction + hands-on foundation as credibility."

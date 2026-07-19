@@ -1,0 +1,15 @@
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="{{ t.dir_base | append: '/' | relative_url }}">Celata<em>_</em>Architect</a>
+    <div class="controls">
+      <nav class="top">
+        <a href="{{ t.dir_base | append: '/#offer' | relative_url }}">{{ t.nav.offer }}</a>
+        <a href="{{ t.dir_base | append: '/#work' | relative_url }}">{{ t.nav.work }}</a>
+        <a href="{{ t.dir_base | append: '/#about' | relative_url }}">{{ t.nav.about }}</a>
+        <a href="{{ t.dir_base | append: '/#contact' | relative_url }}">{{ t.nav.contact }}</a>
+      </nav>
+      <a class="lang" href="{{ page.alt_url | default: t.alt_home | relative_url }}" aria-label="Switch language">{{ t.alt_label }}</a>
+      <button class="theme-btn" id="themeToggle" type="button" aria-label="Toggle theme">Theme</button>
+    </div>
+  </div>
+</header>

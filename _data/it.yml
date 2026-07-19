@@ -1,0 +1,144 @@
+lang: it
+lang_label: IT
+alt_label: EN
+alt_home: /
+dir_base: "/it"
+locale: it
+
+nav:
+  offer: Offerta
+  work: Lavori
+  about: Chi sono
+  contact: Contatti
+
+meta:
+  title: "Guglielmo Celata — Solution & Data Architect"
+  description: "Principal indipendente. Progetto e dirigo piattaforme dati — e le applicazioni di intelligenza artificiale che le mettono a frutto. 25 anni di sistemi di dati pubblici."
+
+hero:
+  kicker: "Principal indipendente / Solution &amp; Data Architect"
+  title: "Piattaforme dati — e l'<mark>IA</mark> che le mette a frutto."
+  lede: "Da 25 anni progetto i sistemi di dati pubblici su cui le istituzioni fanno affidamento. Dal 2024: monitoraggio basato su LLM e accesso ai dati in linguaggio naturale, con metodo agentico ovunque."
+  cta_work: "Lavori selezionati →"
+  cta_contact: "Contatti"
+
+offer:
+  no: "01"
+  heading: "Cosa dirigo"
+  pillars:
+    - code: P1
+      title: "Architettura di piattaforme dati"
+      body: "Architettura, roadmap, QA e collaudo di piattaforme dati istituzionali — modello dati, governance, security-by-design."
+    - code: P2
+      title: "IA sui dati"
+      body: "Dall'idea alla produzione: monitoraggio LLM in produzione, accesso ai dati in linguaggio naturale (SQL, SPARQL), RAG sui documenti, integrazioni MCP."
+    - code: P3
+      title: "Metodo agentico"
+      body: "Come lavoro io e come lavora il team che ho abilitato — architettura, analisi, ops, delivery. Non consulenza dall'esterno."
+    - code: P4
+      title: "Padronanza dello stack"
+      body: "La profondità tecnica, fino al metallo, è la fonte dell'autorevolezza per dirigere. Indico la strada e giustifico ogni scelta per filo e per segno."
+
+work:
+  no: "02"
+  heading: "Lavori selezionati"
+  items:
+    - id: maps
+      idx: "01"
+      title: "Data-lake MAPS"
+      desc: "Direzione di un data-lake istituzionale — design tecnico, QA Playbook, security-by-design, collaudo dei rilasci."
+      tag: "Gran Sasso Tech · 2025 →"
+    - id: llm-monitoring
+      idx: "02"
+      title: "Monitoraggio LLM"
+      desc: "Categorizza, sintetizza e prioritizza il flusso di notizie rispetto agli interessi di ciascun cliente. In produzione."
+      tag: "Public affairs · 2024 →"
+    - id: opencoesione
+      idx: "03"
+      title: "OpenCoesione.gov.it"
+      desc: "L'architettura dati del portale nazionale sui fondi di coesione europei. Costruita per essere interrogata e affidabile."
+      tag: "Portale nazionale"
+    - id: health-system
+      idx: "04"
+      title: "Gestionale sanità"
+      desc: "Da requisiti ambigui ad architettura, infrastruttura e un team di sviluppo con un percorso chiaro per rilasciare."
+      tag: "Sistema su misura"
+
+about:
+  label: Chi sono
+  heading: "Dalla matematica, non dal ciclo dell'hype"
+  specs:
+    - k: Sede
+      v: "P.IVA personale · remoto"
+    - k: Lingue
+      v: "IT · EN"
+    - k: Background
+      v: "Openpolis · DEPP · GST"
+    - k: Origine
+      v: "Fisica / reti neurali, 1996"
+  body:
+    - "Sono un principal indipendente. Da 25 anni trasformo dati pubblici complessi in piattaforme su cui le istituzioni contano — dall'architettura dati nazionale di OpenCoesione al data-lake territoriale MAPS che dirigo oggi."
+    - "Ho costruito infrastruttura dati per l'accountability pubblica: OPDM, la piattaforma dietro il monitoraggio di politica e istituzioni di Openpolis; l'archivio nazionale delle delibere CIPE; lo standard internazionale <strong>Popolo</strong> per i dati su persone e organizzazioni. Sono una delle persone che hanno costruito Openpolis come fondazione nazionale, e ho co-fondato DEPP, dove sono CTO."
+    - "Dal 2024 progetto anche le applicazioni di IA che mettono i dati a frutto. La lezione, più semplice dell'hype: <strong>un'applicazione di IA sui dati vale quanto la piattaforma che ha sotto — progetto entrambi i livelli.</strong>"
+
+contact:
+  kicker: Contatti
+  heading: "Un problema data-intensive che ha bisogno di direzione?"
+  body: "Direzione architetturale · progettazione di applicazioni di IA · direzione tecnica frazionale. Remote-first, in italiano o inglese."
+  email: "guglielmo.celata@protonmail.com"
+
+case_back: "← Tutti i lavori"
+
+cases:
+  maps:
+    idx: "01"
+    title: "MAPS — dirigere un data-lake istituzionale"
+    meta: "Fondazione Gran Sasso Tech · 2025 →"
+    lead: "Un data-lake territoriale governato per la ricerca place-based — identificare aree funzionali dai reali pattern di mobilità quotidiana dei cittadini, cosa che richiede di integrare fonti pubbliche eterogenee sotto un unico modello di governance."
+    blocks:
+      - h: "Il mio ruolo"
+        p: "Principal indipendente, P.IVA personale, a scopo definito: consulenza specialistica ICT, quality assurance e collaudo. In pratica ho diretto la realizzazione end-to-end."
+      - h: "Cosa ho diretto"
+        p: "Revisione architetturale e roadmap tecnica del data-lake e dei componenti di interoperabilità. Ho redatto i deliverable del WP2 — design tecnico, cloud solution design, hosting, pipeline ETL, validazione, delivery report. Ho scritto il QA Playbook (branching, code review, coverage, logging e observability) e la checklist Security &amp; Privacy-by-Design (gestione dei segreti, hardening, audit log). Ho definito le procedure di coordinamento del team di sviluppo, formato risorse interne ed esterne, e detengo il collaudo dei rilasci."
+      - h: "Stack diretto"
+        p: "PostgreSQL + PostGIS, DuckDB, Prefect, OpenMetadata, Great Expectations, Docling; stratificazione medallion (bronze / silver / gold)."
+      - h: "Esito"
+        p: "Un data-lake istituzionale messo in piedi con governance, QA e sicurezza integrate fin dall'inizio — e un team abilitato a mandarlo avanti, inclusa una nuova risorsa produttiva in una settimana. In corso per tutto il 2026."
+    sells: "Direzione architetturale + abilitazione del team."
+  llm-monitoring:
+    idx: "02"
+    title: "Una piattaforma di monitoraggio basata su LLM, in produzione"
+    meta: "Una società di public affairs · via DEPP · 2024 →"
+    lead: "Gli analisti monitorano il flusso di notizie per gli interessi di ciascun cliente; il volume rende la triage manuale il collo di bottiglia. Ho progettato un'applicazione che legge il flusso e lo categorizza, sintetizza e prioritizza rispetto agli interessi dichiarati di ciascun cliente."
+    blocks:
+      - h: "Il mio ruolo"
+        p: "Ideazione e progettazione dell'applicazione, erogata all'interno dell'offerta DEPP. La prima applicazione basata su LLM del portafoglio."
+      - h: "Cosa fa"
+        p: "LLM via API sopra una pipeline di ingestione: categorizza gli elementi in ingresso, li sintetizza ed estrae e prioritizza ciò che conta rispetto agli interessi di ciascun cliente."
+      - h: "Perché conta"
+        p: "La prova in produzione del filone applicativo di IA — e un'illustrazione concreta del nesso: l'applicazione funziona perché il livello dati sottostante (ingestione, struttura, governance) è stato progettato per essa."
+    sells: "Applicazioni di IA sui dati + entrambi i livelli."
+  opencoesione:
+    idx: "03"
+    title: "OpenCoesione.gov.it — architettura dati nazionale"
+    meta: "Portale pubblico · fondi di coesione UE"
+    lead: "Il modello dati dietro il portale nazionale italiano sui fondi di coesione europei — un sistema di dati pubblici che deve essere corretto, trasparente e duraturo, costruito per essere interrogato, verificato e affidabile."
+    blocks:
+      - h: "Il lavoro"
+        p: "Ho progettato l'architettura dati: il modello che rende la spesa dei fondi di coesione interrogabile e verificabile per progetti, territori e temi. Parte di una filiera venticinquennale di piattaforme di dati pubblici — OPDM, OpenBilanci, l'archivio delle delibere CIPE, OpenDataLazio — e dello standard internazionale Popolo per i dati su persone, organizzazioni e cariche."
+      - h: "Perché conta"
+        p: "L'archetipo di ciò che dirigo: il dato come bene comune, modellato per correttezza e trasparenza, abbastanza duraturo da restare un riferimento per le istituzioni anni dopo."
+    sells: "Architettura di piattaforme dati per le istituzioni."
+  health-system:
+    idx: "04"
+    title: "Un gestionale per una federazione di aziende sanitarie"
+    meta: "Una federazione italiana di aziende sanitarie e ospedaliere · via DEPP"
+    lead: "Serviva un nuovo gestionale su misura — da requisiti ambigui del cliente a un'applicazione funzionante, un'architettura e un team che rilascia."
+    blocks:
+      - h: "Il mio ruolo"
+        p: "Solution architect e direzione tecnica."
+      - h: "Cosa ho fatto"
+        p: "Ho raccolto e strutturato le specifiche del cliente; definito l'architettura dell'applicazione e l'infrastruttura di supporto; fissato le scelte tecnologiche; indirizzato e istruito il team di sviluppo perché la costruisse; e continuo a tenere l'infrastruttura — incluso il livello Kubernetes — come fondamento operativo."
+      - h: "Il pattern"
+        p: "La cosa ripetibile che vendo: prendere un bisogno data-intensive e sotto-specificato, trasformarlo in un'architettura e un'infrastruttura, e consegnare a un team di sviluppo un percorso chiaro per rilasciare. Direzione, non mani sui ticket."
+    sells: "Direzione architetturale + fondamento hands-on come credibilità."

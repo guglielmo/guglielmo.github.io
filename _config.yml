@@ -1,1 +1,11 @@
-theme: jekyll-theme-hacker
+title: "Guglielmo Celata — Solution & Data Architect"
+description: "Independent principal architect — data platforms and the AI applications over them."
+url: "https://guglielmo.celata.com"
+lang: en
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .sass-cache
