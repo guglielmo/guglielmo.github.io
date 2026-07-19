@@ -7,23 +7,24 @@ locale: en
 
 nav:
   offer: Offer
+  method: How I work
   work: Work
   about: About
   contact: Contact
 
 meta:
-  title: "Guglielmo Celata — Solution & Data Architect"
-  description: "Independent principal architect. I design and direct data platforms — and the AI applications that put them to work. 25 years of public-data systems."
+  title: "Guglielmo Celata — Technical & Data-Architecture Direction"
+  description: "Independent principal. I turn complex data problems into governed platforms — and the team that ships them, yours or mine. 25 years in public-data systems."
 
 hero:
-  kicker: "Independent Principal / Solution &amp; Data Architect"
-  title: "Data platforms — and the <mark>AI</mark> that puts them to work."
-  lede: "25 years architecting public-data systems institutions rely on. Since 2024: LLM-based monitoring in production and natural-language access to data at prototype stage."
+  kicker: "Independent principal · Technical &amp; data-architecture direction"
+  title: "I turn complex data problems into <mark>governed platforms</mark> — and the team that ships them."
+  lede: "A bounded engagement, principal direction: from an ambiguous requirement to a governed architecture — delivered by your team, which I enable, or mine. 25 years in public-data systems; since 2024, the AI layer on top."
   cta_work: "Selected work →"
   cta_contact: "Contact"
 
 offer:
-  no: "01"
+  num: "01"
   heading: "What I direct"
   pillars:
     - code: P1
@@ -39,8 +40,20 @@ offer:
       title: "Command of the stack"
       body: "Depth to the metal as the source of authority to direct. I set the road and justify every call in full."
 
+method:
+  num: "02"
+  heading: "How I work"
+  lede: "The two questions everyone actually has — do you manage people? do you deliver, or just advise? — answered plainly."
+  items:
+    - title: "Direction, not line-management"
+      body: "I own architecture, roadmap, the quality and security bars, and release acceptance. I don't carry your headcount, and I'm not your project manager."
+    - title: "The team is yours, or it's mine"
+      body: "I direct and enable the team you already have — or I bring the delivery team: DEPP, the firm I co-founded. The answer to \"who ships it?\" is explicit."
+    - title: "A bounded engagement"
+      body: "Defined scope, on personal P.IVA: from ambiguous requirements to architecture, infrastructure, and a team on a clear path to ship."
+
 work:
-  no: "02"
+  num: "03"
   heading: "Selected work"
   items:
     - id: maps
@@ -86,7 +99,7 @@ about:
 contact:
   kicker: Contact
   heading: "A data-heavy problem that needs direction?"
-  body: "Architecture direction · AI-application design · fractional technical direction. Remote-first, in English or Italian."
+  body: "Bring me the ambiguous data problem: I turn it into a governed platform and the team that ships it — yours or mine. Architecture direction · AI-application design · technical direction. Remote-first, in English or Italian."
   email: "guglielmo.celata@protonmail.com"
 
 case_back: "← All work"
