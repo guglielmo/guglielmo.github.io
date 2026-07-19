@@ -13,12 +13,12 @@ nav:
 
 meta:
   title: "Guglielmo Celata — Solution & Data Architect"
-  description: "Principal indipendente. Progetto e dirigo piattaforme dati — e le applicazioni di intelligenza artificiale che le mettono a frutto. 25 anni di sistemi di dati pubblici."
+  description: "Principal indipendente. Progetto e dirigo piattaforme dati — e le applicazioni di intelligenza artificiale che rendono quei dati accessibili e utilizzabili. 25 anni di sistemi di dati pubblici."
 
 hero:
   kicker: "Principal indipendente / Solution &amp; Data Architect"
-  title: "Piattaforme dati — e l'<mark>IA</mark> che le mette a frutto."
-  lede: "Da 25 anni progetto i sistemi di dati pubblici su cui le istituzioni fanno affidamento. Dal 2024: monitoraggio basato su LLM e accesso ai dati in linguaggio naturale, con metodo agentico ovunque."
+  title: "Piattaforme dati — e l'<mark>IA</mark> che le rende accessibili."
+  lede: "Da 25 anni progetto i sistemi di dati pubblici su cui le istituzioni fanno affidamento. Dal 2024: monitoraggio basato su LLM in produzione e accesso ai dati in linguaggio naturale a livello prototipale."
   cta_work: "Lavori selezionati →"
   cta_contact: "Contatti"
 
@@ -81,7 +81,7 @@ about:
   body:
     - "Sono un principal indipendente. Da 25 anni trasformo dati pubblici complessi in piattaforme su cui le istituzioni contano — dall'architettura dati nazionale di OpenCoesione al data-lake territoriale MAPS che dirigo oggi."
     - "Ho costruito infrastruttura dati per l'accountability pubblica: OPDM, la piattaforma dietro il monitoraggio di politica e istituzioni di Openpolis; l'archivio nazionale delle delibere CIPE; lo standard internazionale <strong>Popolo</strong> per i dati su persone e organizzazioni. Sono una delle persone che hanno costruito Openpolis come fondazione nazionale, e ho co-fondato DEPP, dove sono CTO."
-    - "Dal 2024 progetto anche le applicazioni di IA che mettono i dati a frutto. La lezione, più semplice dell'hype: <strong>un'applicazione di IA sui dati vale quanto la piattaforma che ha sotto — progetto entrambi i livelli.</strong>"
+    - "Dal 2024 progetto anche le applicazioni di IA che rendono quei dati accessibili e utilizzabili. La lezione, più semplice dell'hype: <strong>un'applicazione di IA fondata sui dati vale quanto la piattaforma che ha sotto — progetto entrambi i livelli.</strong>"
 
 contact:
   kicker: Contatti
@@ -120,7 +120,7 @@ cases:
         p: "LLM via API sopra una pipeline di ingestione: categorizza gli elementi in ingresso, li sintetizza ed estrae e prioritizza ciò che conta rispetto agli interessi di ciascun cliente."
       - h: "Perché conta"
         p: "La prova in produzione del filone applicativo di IA — e un'illustrazione concreta del nesso: l'applicazione funziona perché il livello dati sottostante (ingestione, struttura, governance) è stato progettato per essa."
-    sells: "Applicazioni di IA sui dati + entrambi i livelli."
+    sells: "Applicazioni di IA fondate sui dati + entrambi i livelli."
   opencoesione:
     idx: "03"
     title: "OpenCoesione.gov.it — architettura dati nazionale"
