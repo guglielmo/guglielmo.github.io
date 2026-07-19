@@ -1,0 +1,72 @@
+---
+layout: base
+---
+{% assign t = site.data[page.lang] %}
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">{{ t.hero.kicker }}</p>
+    <h1>{{ t.hero.title }}</h1>
+    <p class="lede">{{ t.hero.lede }}</p>
+    <div class="cta">
+      <a class="primary" href="{{ t.dir_base | append: '/#work' | relative_url }}">{{ t.hero.cta_work }}</a>
+      <a class="ghost" href="{{ t.dir_base | append: '/#contact' | relative_url }}">{{ t.hero.cta_contact }}</a>
+    </div>
+  </div>
+</section>
+
+<section id="offer">
+  <div class="wrap">
+    <div class="sec-head"><span class="no">{{ t.offer.no }}</span><h2>{{ t.offer.heading }}</h2></div>
+    <div class="grid4">
+      {% for p in t.offer.pillars %}
+      <div class="cell">
+        <span class="big">{{ p.code }}</span>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head"><span class="no">{{ t.work.no }}</span><h2>{{ t.work.heading }}</h2></div>
+    <div class="rows">
+      {% for item in t.work.items %}
+      <a class="row" href="{{ t.dir_base | append: '/work/' | append: item.id | append: '/' | relative_url }}">
+        <span class="idx">{{ item.idx }}</span>
+        <h3>{{ item.title }}</h3>
+        <p class="desc-cell">{{ item.desc }}</p>
+        <span class="tag">{{ item.tag }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div>
+      <span class="lbl">{{ t.about.label }}</span>
+      <h2>{{ t.about.heading }}</h2>
+      <ul class="specs">
+        {% for s in t.about.specs %}
+        <li><span class="k">{{ s.k }}</span><span>{{ s.v }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="about-body">
+      {% for para in t.about.body %}<p{% if forloop.first %} class="lead"{% endif %}>{{ para }}</p>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <p class="kicker">{{ t.contact.kicker }}</p>
+    <h2>{{ t.contact.heading }}</h2>
+    <p>{{ t.contact.body }}</p>
+    <a class="mail" href="mailto:{{ t.contact.email }}">{{ t.contact.email }} →</a>
+  </div>
+</section>
