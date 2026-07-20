@@ -66,6 +66,7 @@ layout: base
     <p class="kicker">{{ L.contact.kicker }}</p>
     <h2>{{ L.contact.heading }}</h2>
     <p>{{ L.contact.body }}</p>
+    {% if L.contact.floor %}<p class="price">{{ L.contact.floor }}</p>{% endif %}
     <a class="mail" href="mailto:{{ L.contact.email }}">{{ L.contact.email }} →</a>
   </div>
 </section>

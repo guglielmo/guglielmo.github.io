@@ -217,3 +217,62 @@ landing_a:
     heading: "A public-data problem that needs direction?"
     body: "Bring me the ambiguous, data-heavy requirement: I turn it into a governed platform and the team that ships it — yours or mine. Architecture direction · interoperability · AI over data. Remote-first, in Italian or English."
     email: "guglielmo.celata@protonmail.com"
+
+landing_b:
+  hero:
+    kicker: "For data-driven companies · Data & AI architecture direction"
+    title: "The data platform your AI actually needs — and the <mark>AI that runs on it</mark>. I design both layers."
+    lede: "A bounded engagement, principal direction: I design the governed data platform and the AI applications on top of it — LLM monitoring, natural-language access, RAG — from idea to production. Delivered by your team, which I enable, or mine. 25 years building data systems to a standard institutions rely on."
+    cta_work: "Selected work →"
+    cta_contact: "Start a conversation"
+  offer:
+    num: "01"
+    heading: "What I direct"
+    pillars:
+      - code: P1
+        title: "Data-platform architecture"
+        body: "The governed data layer your AI actually needs: data model, pipelines, quality, security. Designed to be correct and durable — not just demoed."
+      - code: P2
+        title: "AI applications over data"
+        body: "Idea to production: LLM-based monitoring (in production), natural-language access to data (SQL, SPARQL), RAG over documents, MCP integrations."
+      - code: P3
+        title: "Both layers, one direction"
+        body: "An AI application over data is only as good as the platform beneath it. I design both — so what you ship survives contact with real data."
+      - code: P4
+        title: "Regulated-grade rigor"
+        body: "The governance, QA and security-by-design institutions demand — brought to your data. 25 years where it had to be correct, transparent and auditable."
+  method:
+    num: "02"
+    heading: "How I work"
+    lede: "The two questions every team actually has — do you manage people? do you deliver, or just advise? — answered plainly."
+    items:
+      - title: "Direction, not line-management"
+        body: "I own architecture, roadmap, the quality and security bars, and release acceptance. I don't carry your headcount, and I'm not your project manager."
+      - title: "The team is yours, or it's mine"
+        body: "I direct and enable the team you have — or I bring the delivery team: DEPP, the firm I co-founded. The answer to \"who ships it?\" is explicit."
+      - title: "A bounded engagement"
+        body: "Defined scope, principal-tier: from an ambiguous data problem to architecture, AI applications and a team on a clear path to ship. Ongoing/fractional direction is the expansion, not the entry."
+  proof:
+    num: "03"
+    heading: "Selected work"
+    items:
+      - id: llm-monitoring
+        idx: "01"
+        title: "LLM monitoring"
+        desc: "Categorizes, summarizes and prioritizes the news stream against each client's interests. In production, LLMs via API over a pipeline designed for it."
+        tag: "Public-affairs · 2024 →"
+      - id: maps
+        idx: "02"
+        title: "MAPS data-lake"
+        desc: "Directing an institutional data-lake — technical design, QA Playbook, security-by-design, release acceptance."
+        tag: "Gran Sasso Tech · 2025 →"
+      - id: opencoesione
+        idx: "03"
+        title: "OpenCoesione.gov.it"
+        desc: "National data architecture at scale, built to be queried and trusted — the platform discipline the AI layer depends on."
+        tag: "National portal"
+  contact:
+    kicker: Contact
+    heading: "A data problem your platform can't yet answer?"
+    body: "Bring me the ambiguous, data-heavy problem: I turn it into a governed platform, the AI that runs on it, and the team that ships it — yours or mine. Bounded engagement, principal-tier, remote-first, in English or Italian."
+    email: "guglielmo.celata@protonmail.com"
