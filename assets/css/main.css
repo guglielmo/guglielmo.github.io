@@ -130,6 +130,7 @@ main > section { padding: clamp(2.8rem, 6vw, 4.5rem) 0; border-bottom: 2px solid
 .contact .kicker { color: var(--accent); }
 .contact h2 { font-family: var(--grot); font-weight: 800; font-size: clamp(1.8rem, 4vw, 3rem); letter-spacing: -0.02em; margin: 1rem 0; max-width: 15ch; text-transform: uppercase; text-wrap: balance; color: var(--ground); }
 .contact p { color: color-mix(in srgb, var(--ground) 72%, transparent); max-width: 50ch; margin: 0 0 1.8rem; }
+.contact .price { font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--ground) 78%, transparent); margin: 0 0 1.6rem; }
 .contact a.mail { display: inline-block; font-family: var(--mono); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--accent); color: #fff; text-decoration: none; padding: 0.85rem 1.3rem; }
 .contact a.mail:hover { background: var(--accent-2); }
 :root[data-theme="dark"] .contact { background: #000; }

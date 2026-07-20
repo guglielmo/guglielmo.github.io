@@ -158,3 +158,129 @@ cases:
       - h: "Il pattern"
         p: "La cosa ripetibile che vendo: prendere un bisogno data-intensive e sotto-specificato, trasformarlo in un'architettura e un'infrastruttura, e consegnare a un team di sviluppo un percorso chiaro per rilasciare. Direzione, non mani sui ticket."
     sells: "Direzione architetturale + fondamento hands-on come credibilità."
+  cipe:
+    idx: "05"
+    title: "L'archivio delle delibere CIPE — decisioni di investimento pubblico, dal 1967 a oggi"
+    meta: "Archivio nazionale · decisioni di investimento pubblico"
+    lead: "Decenni di decisioni di investimento pubblico italiane — le delibere del Comitato Interministeriale per la Programmazione Economica, dal 1967 in poi — modellate in un unico archivio che deve restare corretto, interrogabile e duraturo attraverso mezzo secolo di formati e regole."
+    blocks:
+      - h: "Il lavoro"
+        p: "Ho progettato l'architettura dati: un modello che rende cinquant'anni di delibere coerenti, interrogabili e citabili per progetti, fondi e nel tempo. Parte di una filiera venticinquennale di piattaforme di dati pubblici — OPDM, OpenBilanci, OpenDataLazio — e dello standard internazionale Popolo per i dati su persone, organizzazioni e cariche."
+      - h: "Perché conta"
+        p: "L'archetipo di ciò che dirigo: il dato come bene comune, modellato per correttezza e trasparenza, abbastanza duraturo da restare un riferimento per le istituzioni decenni dopo che le decisioni sono state prese."
+    sells: "Architettura di piattaforme dati per le istituzioni."
+
+landing_a:
+  hero:
+    kicker: "Per le istituzioni · Direzione di piattaforme dati"
+    title: "Dati pubblici complessi, trasformati in <mark>piattaforme governate</mark> — e nel team che le realizza."
+    lede: "Un ingaggio a perimetro definito, direzione principal: da un requisito ambiguo a un'architettura governata — con QA, security-by-design e collaudo dei rilasci — realizzata dal tuo team, che abilito, o dal mio. 25 anni a progettare sistemi di dati pubblici su cui le istituzioni contano: OpenCoesione, OPDM, l'archivio CIPE, il data-lake MAPS."
+    cta_work: "Lavori selezionati →"
+    cta_contact: "Apriamo un dialogo"
+  offer:
+    num: "01"
+    heading: "Cosa dirigo per le istituzioni"
+    pillars:
+      - code: P1
+        title: "Architettura di piattaforme dati"
+        body: "Modello dati, roadmap, governance. La piattaforma progettata per essere interrogata, verificata e affidabile — abbastanza duratura da restare un riferimento anni dopo."
+      - code: P2
+        title: "Interoperabilità e dati aperti"
+        body: "Fonti pubbliche eterogenee sotto un unico modello di governance; basata su standard (Popolo), aperta per progettazione, costruita per interoperare."
+      - code: P3
+        title: "QA, sicurezza e privacy-by-design"
+        body: "QA Playbook, checklist di security-by-design, collaudo dei rilasci — governance integrata dall'inizio, non aggiunta alla fine."
+  method:
+    num: "02"
+    heading: "Come lavoro"
+    lede: "Le due domande che ogni istituzione si fa davvero — gestisci persone? consegni, o dai solo pareri? — con risposta netta."
+    items:
+      - title: "Direzione, non line-management"
+        body: "Possiedo architettura, roadmap, gli standard di qualità e sicurezza, e il collaudo dei rilasci. Non ho le tue risorse a libro paga e non faccio il project manager."
+      - title: "Il team è il tuo, o è il mio"
+        body: "Indirizzo e abilito le persone che hai — oppure porto io il team di delivery: DEPP, la società che ho co-fondato, già al lavoro per istituzioni ed enti pubblici."
+      - title: "Un ingaggio a perimetro definito"
+        body: "Perimetro definito, su P.IVA personale: da un requisito ambiguo ad architettura, infrastruttura e un team su una rotta chiara per rilasciare."
+  proof:
+    num: "03"
+    heading: "Lavori selezionati"
+    items:
+      - id: maps
+        idx: "01"
+        title: "Data-lake MAPS"
+        desc: "Direzione di un data-lake istituzionale — design tecnico, QA Playbook, security-by-design, collaudo dei rilasci."
+        tag: "Gran Sasso Tech · 2025 →"
+      - id: opencoesione
+        idx: "02"
+        title: "OpenCoesione.gov.it"
+        desc: "L'architettura dati del portale nazionale sui fondi di coesione europei. Costruita per essere interrogata e affidabile."
+        tag: "Portale nazionale"
+      - id: cipe
+        idx: "03"
+        title: "Archivio delibere CIPE"
+        desc: "L'architettura dati di un archivio nazionale delle decisioni di investimento pubblico, dal 1967 a oggi — corretto e duraturo nei decenni."
+        tag: "Archivio nazionale · 1967 →"
+  contact:
+    kicker: Contatti
+    heading: "Un problema di dati pubblici che ha bisogno di direzione?"
+    body: "Portami il requisito ambiguo e data-intensive: lo trasformo in una piattaforma governata e nel team che la realizza — il tuo o il mio. Direzione architetturale · interoperabilità · IA sui dati. Remote-first, in italiano o inglese."
+    email: "guglielmo.celata@protonmail.com"
+
+landing_b:
+  hero:
+    kicker: "Per le aziende data-driven · Direzione architetturale dati e IA"
+    title: "La piattaforma dati che alla tua IA serve davvero — e l'<mark>IA che ci gira sopra</mark>. Progetto entrambi i livelli."
+    lede: "Un ingaggio a perimetro definito, direzione principal: progetto la piattaforma dati governata e le applicazioni di IA che ci girano sopra — monitoraggio LLM, accesso in linguaggio naturale, RAG — dall'idea alla produzione. Realizzata dal tuo team, che abilito, o dal mio. 25 anni a costruire sistemi di dati a uno standard su cui le istituzioni contano."
+    cta_work: "Lavori selezionati →"
+    cta_contact: "Apriamo un dialogo"
+  offer:
+    num: "01"
+    heading: "Cosa dirigo"
+    pillars:
+      - code: P1
+        title: "Architettura di piattaforme dati"
+        body: "Il livello dati governato che alla tua IA serve davvero: modello dati, pipeline, qualità, sicurezza. Progettato per essere corretto e duraturo — non solo da demo."
+      - code: P2
+        title: "Applicazioni di IA sui dati"
+        body: "Dall'idea alla produzione: monitoraggio basato su LLM (in produzione), accesso ai dati in linguaggio naturale (SQL, SPARQL), RAG sui documenti, integrazioni MCP."
+      - code: P3
+        title: "Entrambi i livelli, una direzione"
+        body: "Un'applicazione di IA sui dati vale quanto la piattaforma che ha sotto. Progetto entrambi — così ciò che rilasci regge l'impatto con i dati veri."
+      - code: P4
+        title: "Rigore da settore regolamentato"
+        body: "La governance, il QA e la security-by-design che le istituzioni pretendono — portati sui tuoi dati. 25 anni in cui il dato doveva essere corretto, trasparente e verificabile."
+  method:
+    num: "02"
+    heading: "Come lavoro"
+    lede: "Le due domande che ogni team si fa davvero — gestisci persone? consegni, o dai solo pareri? — con risposta netta."
+    items:
+      - title: "Direzione, non line-management"
+        body: "Possiedo architettura, roadmap, gli standard di qualità e sicurezza, e il collaudo dei rilasci. Non ho le tue risorse a libro paga e non faccio il project manager."
+      - title: "Il team è il tuo, o è il mio"
+        body: "Indirizzo e abilito il team che hai — oppure porto io il team di delivery: DEPP, la società che ho co-fondato. La risposta a \"chi lo realizza?\" è esplicita."
+      - title: "Un ingaggio a perimetro definito"
+        body: "Perimetro definito, tier principal: da un problema dati ambiguo ad architettura, applicazioni di IA e un team su una rotta chiara per rilasciare. La direzione continuativa/fractional è l'espansione, non l'ingresso."
+  proof:
+    num: "03"
+    heading: "Lavori selezionati"
+    items:
+      - id: llm-monitoring
+        idx: "01"
+        title: "Monitoraggio LLM"
+        desc: "Categorizza, sintetizza e prioritizza il flusso di notizie rispetto agli interessi di ciascun cliente. In produzione, LLM via API su una pipeline progettata per questo."
+        tag: "Public affairs · 2024 →"
+      - id: maps
+        idx: "02"
+        title: "Data-lake MAPS"
+        desc: "Direzione di un data-lake istituzionale — design tecnico, QA Playbook, security-by-design, collaudo dei rilasci."
+        tag: "Gran Sasso Tech · 2025 →"
+      - id: opencoesione
+        idx: "03"
+        title: "OpenCoesione.gov.it"
+        desc: "Architettura dati nazionale su larga scala, costruita per essere interrogata e affidabile — la disciplina di piattaforma da cui dipende il livello di IA."
+        tag: "Portale nazionale"
+  contact:
+    kicker: Contatti
+    heading: "Un problema dati a cui la tua piattaforma non sa ancora rispondere?"
+    body: "Portami il problema ambiguo e data-intensive: lo trasformo in una piattaforma governata, nell'IA che ci gira sopra e nel team che la realizza — il tuo o il mio. Ingaggio a perimetro definito, tier principal, remote-first, in italiano o inglese."
+    email: "guglielmo.celata@protonmail.com"

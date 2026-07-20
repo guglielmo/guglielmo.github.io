@@ -158,3 +158,129 @@ cases:
       - h: "The pattern"
         p: "The repeatable thing I sell: take a data-heavy, under-specified need, turn it into an architecture and an infrastructure, and hand a development team a clear path to ship. Direction, not hands-on tickets."
     sells: "Architecture direction + hands-on foundation as credibility."
+  cipe:
+    idx: "05"
+    title: "The CIPE deliberations archive — public-investment decisions, 1967 to today"
+    meta: "National archive · public-investment decisions"
+    lead: "Decades of Italy's public-investment decisions — the deliberations of the interministerial committee for economic planning, from 1967 onward — modelled into a single archive that has to stay correct, queryable and durable across half a century of formats and rules."
+    blocks:
+      - h: "The work"
+        p: "I designed the data architecture: a model that makes fifty years of deliberations consistent, queryable and citable across projects, funds and time. Part of a 25-year lineage of public-data platforms — OPDM, OpenBilanci, OpenDataLazio — and the Popolo international standard for data on people, organizations and posts."
+      - h: "Why it matters"
+        p: "The archetype of what I direct: data as a public good, modelled for correctness and transparency, durable enough that institutions still rely on it decades after the decisions were taken."
+    sells: "Data-platform architecture for institutions."
+
+landing_a:
+  hero:
+    kicker: "For institutions · Data-platform direction"
+    title: "Complex public data, turned into <mark>governed platforms</mark> — and the team that ships them."
+    lede: "A bounded engagement, principal direction: from an ambiguous requirement to a governed architecture — with QA, security-by-design and release acceptance — delivered by your team, which I enable, or mine. 25 years architecting public-data systems institutions rely on: OpenCoesione, OPDM, the CIPE archive, the MAPS data-lake."
+    cta_work: "Selected work →"
+    cta_contact: "Start a conversation"
+  offer:
+    num: "01"
+    heading: "What I direct for institutions"
+    pillars:
+      - code: P1
+        title: "Data-platform architecture"
+        body: "Data model, roadmap, governance. The platform designed to be queried, audited and trusted — durable enough to still matter years later."
+      - code: P2
+        title: "Interoperability & open data"
+        body: "Heterogeneous public sources under one governance model; standards-based (Popolo), open by design, built to interoperate."
+      - code: P3
+        title: "QA, security & privacy-by-design"
+        body: "QA Playbook, security-by-design checklist, release acceptance — governance built in from the start, not bolted on at the end."
+  method:
+    num: "02"
+    heading: "How I work"
+    lede: "The two questions every institution actually has — do you manage people? do you deliver, or just advise? — answered plainly."
+    items:
+      - title: "Direction, not line-management"
+        body: "I own architecture, roadmap, the quality and security bars, and release acceptance. I don't carry your headcount, and I'm not your project manager."
+      - title: "The team is yours, or it's mine"
+        body: "I direct and enable the people you have — or I bring the delivery team: DEPP, the firm I co-founded, already at work for public institutions and agencies."
+      - title: "A bounded engagement"
+        body: "Defined scope, on personal P.IVA: from an ambiguous requirement to architecture, infrastructure, and a team on a clear path to ship."
+  proof:
+    num: "03"
+    heading: "Selected work"
+    items:
+      - id: maps
+        idx: "01"
+        title: "MAPS data-lake"
+        desc: "Directing an institutional data-lake — technical design, QA Playbook, security-by-design, release acceptance."
+        tag: "Gran Sasso Tech · 2025 →"
+      - id: opencoesione
+        idx: "02"
+        title: "OpenCoesione.gov.it"
+        desc: "The data architecture behind Italy's national portal for EU cohesion funds. Built to be queried and trusted."
+        tag: "National portal"
+      - id: cipe
+        idx: "03"
+        title: "CIPE deliberations archive"
+        desc: "The data architecture of a national archive of public-investment decisions, 1967 to today — correct and durable across decades."
+        tag: "National archive · 1967 →"
+  contact:
+    kicker: Contact
+    heading: "A public-data problem that needs direction?"
+    body: "Bring me the ambiguous, data-heavy requirement: I turn it into a governed platform and the team that ships it — yours or mine. Architecture direction · interoperability · AI over data. Remote-first, in Italian or English."
+    email: "guglielmo.celata@protonmail.com"
+
+landing_b:
+  hero:
+    kicker: "For data-driven companies · Data & AI architecture direction"
+    title: "The data platform your AI actually needs — and the <mark>AI that runs on it</mark>. I design both layers."
+    lede: "A bounded engagement, principal direction: I design the governed data platform and the AI applications on top of it — LLM monitoring, natural-language access, RAG — from idea to production. Delivered by your team, which I enable, or mine. 25 years building data systems to a standard institutions rely on."
+    cta_work: "Selected work →"
+    cta_contact: "Start a conversation"
+  offer:
+    num: "01"
+    heading: "What I direct"
+    pillars:
+      - code: P1
+        title: "Data-platform architecture"
+        body: "The governed data layer your AI actually needs: data model, pipelines, quality, security. Designed to be correct and durable — not just demoed."
+      - code: P2
+        title: "AI applications over data"
+        body: "Idea to production: LLM-based monitoring (in production), natural-language access to data (SQL, SPARQL), RAG over documents, MCP integrations."
+      - code: P3
+        title: "Both layers, one direction"
+        body: "An AI application over data is only as good as the platform beneath it. I design both — so what you ship survives contact with real data."
+      - code: P4
+        title: "Regulated-grade rigor"
+        body: "The governance, QA and security-by-design institutions demand — brought to your data. 25 years where it had to be correct, transparent and auditable."
+  method:
+    num: "02"
+    heading: "How I work"
+    lede: "The two questions every team actually has — do you manage people? do you deliver, or just advise? — answered plainly."
+    items:
+      - title: "Direction, not line-management"
+        body: "I own architecture, roadmap, the quality and security bars, and release acceptance. I don't carry your headcount, and I'm not your project manager."
+      - title: "The team is yours, or it's mine"
+        body: "I direct and enable the team you have — or I bring the delivery team: DEPP, the firm I co-founded. The answer to \"who ships it?\" is explicit."
+      - title: "A bounded engagement"
+        body: "Defined scope, principal-tier: from an ambiguous data problem to architecture, AI applications and a team on a clear path to ship. Ongoing/fractional direction is the expansion, not the entry."
+  proof:
+    num: "03"
+    heading: "Selected work"
+    items:
+      - id: llm-monitoring
+        idx: "01"
+        title: "LLM monitoring"
+        desc: "Categorizes, summarizes and prioritizes the news stream against each client's interests. In production, LLMs via API over a pipeline designed for it."
+        tag: "Public-affairs · 2024 →"
+      - id: maps
+        idx: "02"
+        title: "MAPS data-lake"
+        desc: "Directing an institutional data-lake — technical design, QA Playbook, security-by-design, release acceptance."
+        tag: "Gran Sasso Tech · 2025 →"
+      - id: opencoesione
+        idx: "03"
+        title: "OpenCoesione.gov.it"
+        desc: "National data architecture at scale, built to be queried and trusted — the platform discipline the AI layer depends on."
+        tag: "National portal"
+  contact:
+    kicker: Contact
+    heading: "A data problem your platform can't yet answer?"
+    body: "Bring me the ambiguous, data-heavy problem: I turn it into a governed platform, the AI that runs on it, and the team that ships it — yours or mine. Bounded engagement, principal-tier, remote-first, in English or Italian."
+    email: "guglielmo.celata@protonmail.com"
