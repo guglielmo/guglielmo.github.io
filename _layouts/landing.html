@@ -18,7 +18,8 @@ layout: base
 <section id="offer">
   <div class="wrap">
     <div class="sec-head"><span class="no">{{ L.offer.num }}</span><h2>{{ L.offer.heading }}</h2></div>
-    <div class="grid4">
+    {% assign pcols = L.offer.pillars | size %}
+    <div class="{% if pcols == 3 %}grid3{% else %}grid4{% endif %}">
       {% for p in L.offer.pillars %}
       <div class="cell">
         <span class="big">{{ p.code }}</span>

@@ -158,6 +158,17 @@ cases:
       - h: "The pattern"
         p: "The repeatable thing I sell: take a data-heavy, under-specified need, turn it into an architecture and an infrastructure, and hand a development team a clear path to ship. Direction, not hands-on tickets."
     sells: "Architecture direction + hands-on foundation as credibility."
+  cipe:
+    idx: "05"
+    title: "The CIPE deliberations archive — public-investment decisions, 1967 to today"
+    meta: "National archive · public-investment decisions"
+    lead: "Decades of Italy's public-investment decisions — the deliberations of the interministerial committee for economic planning, from 1967 onward — modelled into a single archive that has to stay correct, queryable and durable across half a century of formats and rules."
+    blocks:
+      - h: "The work"
+        p: "I designed the data architecture: a model that makes fifty years of deliberations consistent, queryable and citable across projects, funds and time. Part of a 25-year lineage of public-data platforms — OPDM, OpenBilanci, OpenDataLazio — and the Popolo international standard for data on people, organizations and posts."
+      - h: "Why it matters"
+        p: "The archetype of what I direct: data as a public good, modelled for correctness and transparency, durable enough that institutions still rely on it decades after the decisions were taken."
+    sells: "Data-platform architecture for institutions."
 
 landing_a:
   hero:
@@ -179,9 +190,6 @@ landing_a:
       - code: P3
         title: "QA, security & privacy-by-design"
         body: "QA Playbook, security-by-design checklist, release acceptance — governance built in from the start, not bolted on at the end."
-      - code: P4
-        title: "AI over public data"
-        body: "Where it earns its place: LLM-based monitoring, natural-language access to data (SQL, SPARQL), RAG over documents — grounded in the platform beneath."
   method:
     num: "02"
     heading: "How I work"
@@ -192,7 +200,7 @@ landing_a:
       - title: "The team is yours, or it's mine"
         body: "I direct and enable the people you have — or I bring the delivery team: DEPP, the firm I co-founded, already at work for public institutions and agencies."
       - title: "A bounded engagement"
-        body: "Defined scope, on personal P.IVA — a shape that fits public procurement: as principal direction, or within a qualified delivery team."
+        body: "Defined scope, on personal P.IVA: from an ambiguous requirement to architecture, infrastructure, and a team on a clear path to ship."
   proof:
     num: "03"
     heading: "Selected work"
@@ -207,11 +215,11 @@ landing_a:
         title: "OpenCoesione.gov.it"
         desc: "The data architecture behind Italy's national portal for EU cohesion funds. Built to be queried and trusted."
         tag: "National portal"
-      - id: health-system
+      - id: cipe
         idx: "03"
-        title: "Health-authority system"
-        desc: "From ambiguous requirements to architecture, infrastructure and a development team on a clear path to ship."
-        tag: "Custom system"
+        title: "CIPE deliberations archive"
+        desc: "The data architecture of a national archive of public-investment decisions, 1967 to today — correct and durable across decades."
+        tag: "National archive · 1967 →"
   contact:
     kicker: Contact
     heading: "A public-data problem that needs direction?"

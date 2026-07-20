@@ -158,6 +158,17 @@ cases:
       - h: "Il pattern"
         p: "La cosa ripetibile che vendo: prendere un bisogno data-intensive e sotto-specificato, trasformarlo in un'architettura e un'infrastruttura, e consegnare a un team di sviluppo un percorso chiaro per rilasciare. Direzione, non mani sui ticket."
     sells: "Direzione architetturale + fondamento hands-on come credibilità."
+  cipe:
+    idx: "05"
+    title: "L'archivio delle delibere CIPE — decisioni di investimento pubblico, dal 1967 a oggi"
+    meta: "Archivio nazionale · decisioni di investimento pubblico"
+    lead: "Decenni di decisioni di investimento pubblico italiane — le delibere del Comitato Interministeriale per la Programmazione Economica, dal 1967 in poi — modellate in un unico archivio che deve restare corretto, interrogabile e duraturo attraverso mezzo secolo di formati e regole."
+    blocks:
+      - h: "Il lavoro"
+        p: "Ho progettato l'architettura dati: un modello che rende cinquant'anni di delibere coerenti, interrogabili e citabili per progetti, fondi e nel tempo. Parte di una filiera venticinquennale di piattaforme di dati pubblici — OPDM, OpenBilanci, OpenDataLazio — e dello standard internazionale Popolo per i dati su persone, organizzazioni e cariche."
+      - h: "Perché conta"
+        p: "L'archetipo di ciò che dirigo: il dato come bene comune, modellato per correttezza e trasparenza, abbastanza duraturo da restare un riferimento per le istituzioni decenni dopo che le decisioni sono state prese."
+    sells: "Architettura di piattaforme dati per le istituzioni."
 
 landing_a:
   hero:
@@ -179,9 +190,6 @@ landing_a:
       - code: P3
         title: "QA, sicurezza e privacy-by-design"
         body: "QA Playbook, checklist di security-by-design, collaudo dei rilasci — governance integrata dall'inizio, non aggiunta alla fine."
-      - code: P4
-        title: "IA sui dati pubblici"
-        body: "Dove serve davvero: monitoraggio basato su LLM, accesso ai dati in linguaggio naturale (SQL, SPARQL), RAG sui documenti — fondati sulla piattaforma che hanno sotto."
   method:
     num: "02"
     heading: "Come lavoro"
@@ -192,7 +200,7 @@ landing_a:
       - title: "Il team è il tuo, o è il mio"
         body: "Indirizzo e abilito le persone che hai — oppure porto io il team di delivery: DEPP, la società che ho co-fondato, già al lavoro per istituzioni ed enti pubblici."
       - title: "Un ingaggio a perimetro definito"
-        body: "Perimetro definito, su P.IVA personale — una forma adatta agli appalti pubblici: come direzione principal, o dentro un team di delivery qualificato."
+        body: "Perimetro definito, su P.IVA personale: da un requisito ambiguo ad architettura, infrastruttura e un team su una rotta chiara per rilasciare."
   proof:
     num: "03"
     heading: "Lavori selezionati"
@@ -207,11 +215,11 @@ landing_a:
         title: "OpenCoesione.gov.it"
         desc: "L'architettura dati del portale nazionale sui fondi di coesione europei. Costruita per essere interrogata e affidabile."
         tag: "Portale nazionale"
-      - id: health-system
+      - id: cipe
         idx: "03"
-        title: "Gestionale sanità"
-        desc: "Da requisiti ambigui ad architettura, infrastruttura e un team di sviluppo con un percorso chiaro per rilasciare."
-        tag: "Sistema su misura"
+        title: "Archivio delibere CIPE"
+        desc: "L'architettura dati di un archivio nazionale delle decisioni di investimento pubblico, dal 1967 a oggi — corretto e duraturo nei decenni."
+        tag: "Archivio nazionale · 1967 →"
   contact:
     kicker: Contatti
     heading: "Un problema di dati pubblici che ha bisogno di direzione?"
