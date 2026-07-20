@@ -1,0 +1,71 @@
+---
+layout: base
+---
+{% assign t = site.data[page.lang] %}
+{% assign L = t[page.landing_key] %}
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">{{ L.hero.kicker }}</p>
+    <h1>{{ L.hero.title }}</h1>
+    <p class="lede">{{ L.hero.lede }}</p>
+    <div class="cta">
+      <a class="primary" href="#proof">{{ L.hero.cta_work }}</a>
+      <a class="ghost" href="#contact">{{ L.hero.cta_contact }}</a>
+    </div>
+  </div>
+</section>
+
+<section id="offer">
+  <div class="wrap">
+    <div class="sec-head"><span class="no">{{ L.offer.num }}</span><h2>{{ L.offer.heading }}</h2></div>
+    <div class="grid4">
+      {% for p in L.offer.pillars %}
+      <div class="cell">
+        <span class="big">{{ p.code }}</span>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="wrap">
+    <div class="sec-head"><span class="no">{{ L.method.num }}</span><h2>{{ L.method.heading }}</h2></div>
+    {% if L.method.lede %}<p class="lede">{{ L.method.lede }}</p>{% endif %}
+    <div class="grid3">
+      {% for m in L.method.items %}
+      <div class="cell">
+        <h3>{{ m.title }}</h3>
+        <p>{{ m.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="proof">
+  <div class="wrap">
+    <div class="sec-head"><span class="no">{{ L.proof.num }}</span><h2>{{ L.proof.heading }}</h2></div>
+    <div class="rows">
+      {% for item in L.proof.items %}
+      <a class="row" href="{{ t.dir_base | append: '/work/' | append: item.id | append: '/' | relative_url }}">
+        <span class="idx">{{ item.idx }}</span>
+        <h3>{{ item.title }}</h3>
+        <p class="desc-cell">{{ item.desc }}</p>
+        <span class="tag">{{ item.tag }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <p class="kicker">{{ L.contact.kicker }}</p>
+    <h2>{{ L.contact.heading }}</h2>
+    <p>{{ L.contact.body }}</p>
+    <a class="mail" href="mailto:{{ L.contact.email }}">{{ L.contact.email }} →</a>
+  </div>
+</section>

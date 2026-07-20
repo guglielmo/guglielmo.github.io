@@ -158,3 +158,62 @@ cases:
       - h: "Il pattern"
         p: "La cosa ripetibile che vendo: prendere un bisogno data-intensive e sotto-specificato, trasformarlo in un'architettura e un'infrastruttura, e consegnare a un team di sviluppo un percorso chiaro per rilasciare. Direzione, non mani sui ticket."
     sells: "Direzione architetturale + fondamento hands-on come credibilità."
+
+landing_a:
+  hero:
+    kicker: "Per le istituzioni · Direzione di piattaforme dati"
+    title: "Dati pubblici complessi, trasformati in <mark>piattaforme governate</mark> — e nel team che le realizza."
+    lede: "Un ingaggio a perimetro definito, direzione principal: da un requisito ambiguo a un'architettura governata — con QA, security-by-design e collaudo dei rilasci — realizzata dal tuo team, che abilito, o dal mio. 25 anni a progettare sistemi di dati pubblici su cui le istituzioni contano: OpenCoesione, OPDM, l'archivio CIPE, il data-lake MAPS."
+    cta_work: "Lavori selezionati →"
+    cta_contact: "Apriamo un dialogo"
+  offer:
+    num: "01"
+    heading: "Cosa dirigo per le istituzioni"
+    pillars:
+      - code: P1
+        title: "Architettura di piattaforme dati"
+        body: "Modello dati, roadmap, governance. La piattaforma progettata per essere interrogata, verificata e affidabile — abbastanza duratura da restare un riferimento anni dopo."
+      - code: P2
+        title: "Interoperabilità e dati aperti"
+        body: "Fonti pubbliche eterogenee sotto un unico modello di governance; basata su standard (Popolo), aperta per progettazione, costruita per interoperare."
+      - code: P3
+        title: "QA, sicurezza e privacy-by-design"
+        body: "QA Playbook, checklist di security-by-design, collaudo dei rilasci — governance integrata dall'inizio, non aggiunta alla fine."
+      - code: P4
+        title: "IA sui dati pubblici"
+        body: "Dove serve davvero: monitoraggio basato su LLM, accesso ai dati in linguaggio naturale (SQL, SPARQL), RAG sui documenti — fondati sulla piattaforma che hanno sotto."
+  method:
+    num: "02"
+    heading: "Come lavoro"
+    lede: "Le due domande che ogni istituzione si fa davvero — gestisci persone? consegni, o dai solo pareri? — con risposta netta."
+    items:
+      - title: "Direzione, non line-management"
+        body: "Possiedo architettura, roadmap, gli standard di qualità e sicurezza, e il collaudo dei rilasci. Non ho le tue risorse a libro paga e non faccio il project manager."
+      - title: "Il team è il tuo, o è il mio"
+        body: "Indirizzo e abilito le persone che hai — oppure porto io il team di delivery: DEPP, la società che ho co-fondato, già al lavoro per istituzioni ed enti pubblici."
+      - title: "Un ingaggio a perimetro definito"
+        body: "Perimetro definito, su P.IVA personale — una forma adatta agli appalti pubblici: come direzione principal, o dentro un team di delivery qualificato."
+  proof:
+    num: "03"
+    heading: "Lavori selezionati"
+    items:
+      - id: maps
+        idx: "01"
+        title: "Data-lake MAPS"
+        desc: "Direzione di un data-lake istituzionale — design tecnico, QA Playbook, security-by-design, collaudo dei rilasci."
+        tag: "Gran Sasso Tech · 2025 →"
+      - id: opencoesione
+        idx: "02"
+        title: "OpenCoesione.gov.it"
+        desc: "L'architettura dati del portale nazionale sui fondi di coesione europei. Costruita per essere interrogata e affidabile."
+        tag: "Portale nazionale"
+      - id: health-system
+        idx: "03"
+        title: "Gestionale sanità"
+        desc: "Da requisiti ambigui ad architettura, infrastruttura e un team di sviluppo con un percorso chiaro per rilasciare."
+        tag: "Sistema su misura"
+  contact:
+    kicker: Contatti
+    heading: "Un problema di dati pubblici che ha bisogno di direzione?"
+    body: "Portami il requisito ambiguo e data-intensive: lo trasformo in una piattaforma governata e nel team che la realizza — il tuo o il mio. Direzione architetturale · interoperabilità · IA sui dati. Remote-first, in italiano o inglese."
+    email: "guglielmo.celata@protonmail.com"

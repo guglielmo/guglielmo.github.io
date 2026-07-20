@@ -2,7 +2,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.case %}{% assign c = t.cases[page.case] %}<title>{{ c.title }} — Guglielmo Celata</title>
-  <meta name="description" content="{{ c.lead | strip_html | truncate: 155 }}">{% else %}<title>{{ t.meta.title }}</title>
+  <meta name="description" content="{{ c.lead | strip_html | truncate: 155 }}">{% elsif page.seo_title %}<title>{{ page.seo_title }}</title>
+  <meta name="description" content="{{ page.seo_desc }}">{% else %}<title>{{ t.meta.title }}</title>
   <meta name="description" content="{{ t.meta.description }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23111210'/><text x='16' y='23' font-size='20' font-family='monospace' font-weight='700' fill='%23ff4da0' text-anchor='middle'>C</text></svg>">
